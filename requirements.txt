@@ -1,0 +1,14 @@
+# Python packages required for the SimFin tutorials.
+# Install by running: pip install -r requirements.txt
+
+simfin
+pandas
+numpy
+seaborn
+matplotlib
+jupyter
+
+# Install the nbval package if you want to automatically
+# run and test all Notebooks. See README.md for details.
+
+# nbval
