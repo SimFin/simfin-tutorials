@@ -15,6 +15,7 @@ tutorials show how to use the SimFin API and data.
 
 1. Basics ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/01_Basics.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/01_Basics.ipynb))
 2. Resampling ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/02_Resampling.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/02_Resampling.ipynb))
+2. Growth & Returns ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb))
 
 
 ## Downloading
