@@ -1,3 +1,13 @@
+# WARNING!
+
+This is currently under development. You are welcome to try it, with the
+understanding that it is an early "private" beta-version that may be
+broken. You may also need to install the simfin package using the
+following command, to get the latest features used in some of the tutorials:
+
+    pip install git+https://github.com/simfin/simfin.git
+
+
 # SimFin Tutorials
 
 [Original repository on GitHub](https://github.com/simfin/simfin-tutorials)
