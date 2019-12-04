@@ -28,6 +28,8 @@ tutorials show how to use the SimFin API and data.
 3. Growth & Returns ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb))
 4. Signals ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/04_Signals.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/04_Signals.ipynb))
 
+There is also a collection of small recipes in the cookbook ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb))
+
 
 ## Downloading
 
