@@ -1,9 +1,13 @@
-# WARNING!
+# Beta Warning
 
-This is currently under development. You are welcome to try it, with the
-understanding that it is an early "private" beta-version that may be
-broken. You may also need to install the simfin package using the
-following command, to get the latest features used in some of the tutorials:
+This is an early beta version which may set your computer on fire, cause
+40 years of darkness, earth-quakes and volcanoes, the dead rising from
+the grave, human sacrifice, dogs and cats living together.
+[Mass hysteria!](https://www.youtube.com/watch?v=9S4cldkdCjE).
+
+If you experience any problems, you could try and install the simfin
+package using the following command, to get the latest features used in
+some of the tutorials:
 
     pip install git+https://github.com/simfin/simfin.git
 
@@ -28,6 +32,7 @@ tutorials show how to use the SimFin API and data.
 3. Growth & Returns ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb))
 4. Signals ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/04_Signals.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/04_Signals.ipynb))
 5. Stock Screener ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/05_Stock_Screener.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/05_Stock_Screener.ipynb))
+6. Performance Tips ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/06_Performance_Tips.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/06_Performance_Tips.ipynb))
 
 There is also a collection of small recipes ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb))
 
