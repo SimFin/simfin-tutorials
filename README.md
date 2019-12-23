@@ -3,7 +3,7 @@
 This is an early beta version which may set your computer on fire, cause
 40 years of darkness, earth-quakes and volcanoes, the dead rising from
 the grave, human sacrifice, dogs and cats living together.
-[Mass hysteria!](https://www.youtube.com/watch?v=9S4cldkdCjE).
+[Mass hysteria!](https://www.youtube.com/watch?v=9S4cldkdCjE)
 
 If you experience any problems, you could try and install the simfin
 package using the following command, to get the latest features used in
@@ -31,8 +31,9 @@ tutorials show how to use the SimFin API and data.
 2. Resampling ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/02_Resampling.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/02_Resampling.ipynb))
 3. Growth & Returns ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/03_Growth_Returns.ipynb))
 4. Signals ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/04_Signals.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/04_Signals.ipynb))
-5. Stock Screener ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/05_Stock_Screener.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/05_Stock_Screener.ipynb))
+5. Data Hubs ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/05_Data_Hubs.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/05_Data_Hubs.ipynb))
 6. Performance Tips ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/06_Performance_Tips.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/06_Performance_Tips.ipynb))
+7. Stock Screener ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/07_Stock_Screener.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/07_Stock_Screener.ipynb))
 
 There is also a collection of small recipes ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb))
 
@@ -143,7 +144,7 @@ First you need to install [nbval](https://pypi.org/project/nbval/):
 Then you can execute all the Notebooks and test them for errors by running
 the following command from the directory where the Notebooks are located:
  
-    pytest --nbval-lax
+    pytest --nbval-lax -v
 
 Note that this will only test for errors and exceptions. It will not test
 whether the new output matches the old output found in the Notebooks,
