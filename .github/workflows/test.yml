@@ -12,21 +12,21 @@ jobs:
     - uses: actions/checkout@v1
 
     - uses: actions/cache@v1
-        id: cache
-        with:
-          path: .cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-test
+      id: cache
+      with:
+        path: .cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-test
 
     - name: Install requirements
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: |
-          pip install -r requirements.txt
-          pip install nbval
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: |
+        pip install -r requirements.txt
+        pip install nbval
 
     - name: Delete SimFin data-dir
-        run: rm -rf ~simfin_data
+      run: rm -rf ~simfin_data
 
     - name: Test all Notebooks
       run: pytest --nbval-lax -v *.ipynb
