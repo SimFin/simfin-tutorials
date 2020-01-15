@@ -2,16 +2,31 @@ name: Test all Notebooks
 
 on: 
   schedule:
-    - cron: "0 5 * * *" # Every day at 5:00
+    - cron: "*/5 * * * *" # Every 5 minutes for testing.
+    #- cron: "0 5 * * *" # Every night at 05:00 UTC
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+
+    - uses: actions/cache@v1
+        id: cache
+        with:
+          path: .cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-test
+
     - name: Install requirements
-      run: |
-        pip install -r requirements.txt
-        pip install nbval
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: |
+          pip install -r requirements.txt
+          pip install nbval
+
+    - name: Delete SimFin data-dir
+        run: rm -rf ~simfin_data
+
     - name: Test all Notebooks
       run: pytest --nbval-lax -v *.ipynb
