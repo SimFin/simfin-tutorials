@@ -1,5 +1,6 @@
 name: Test All Notebooks
 
+# Run this GitHub action on a schedule using the cron.
 on: 
   schedule:
     - cron: "0 5 * * *" # Every night at 05:00 UTC
@@ -7,23 +8,32 @@ on:
 
 jobs:
   test:
+    # We currently only test with the latest ubuntu version.
     runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v1
 
-    - uses: actions/cache@v1
+    steps:
+    # Checkout the repo from GitHub to a temporary work-directory.
+    - name: Checkout GitHub repository
+      uses: actions/checkout@v1
+
+    # Use a cache for the pip install to avoid reinstalling every time this is run.
+    # Note: This is currently not supported for cron schedule. https://github.com/actions/cache/issues/63
+    - name: Cache pip install
+      uses: actions/cache@v1
       id: cache
       with:
         path: .cache/pip
         key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
         restore-keys: |
-          ${{ runner.os }}-test
+          ${{ runner.os }}-pip-
 
+    # Run with a Python version that we know works.
     - name: Setup Python
       uses: actions/setup-python@v1
       with:
         python-version: '3.7'
 
+    # Install all requirements to run these tests.
     - name: Install requirements
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
@@ -31,8 +41,12 @@ jobs:
         pip install -r requirements.txt
         pip install pytest nbval
 
+    # Ensure the SimFin data-dir is removed.
+    # It is unclear from the docs exactly how the cache works, so we make sure
+    # the SimFin data-files are deleted, in case they have been cached.
     - name: Delete SimFin data-dir
       run: rm -rf ~simfin_data
 
+    # Run the actual tests of all the Python Notebooks.
     - name: Test All Notebooks
       run: pytest --nbval-lax -v *.ipynb
