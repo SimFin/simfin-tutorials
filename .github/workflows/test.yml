@@ -1,4 +1,4 @@
-name: Test all Notebooks
+name: Test All Notebooks
 
 on: 
   schedule:
@@ -34,5 +34,5 @@ jobs:
     - name: Delete SimFin data-dir
       run: rm -rf ~simfin_data
 
-    - name: Test all Notebooks
+    - name: Test All Notebooks
       run: pytest --nbval-lax -v *.ipynb
