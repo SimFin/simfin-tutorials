@@ -2,8 +2,8 @@ name: Test all Notebooks
 
 on: 
   schedule:
-    - cron: "*/5 * * * *" # Every 5 minutes for testing.
-    #- cron: "0 5 * * *" # Every night at 05:00 UTC
+    - cron: "0 5 * * *" # Every night at 05:00 UTC
+    #- cron: "*/5 * * * *" # Every 5 minutes for testing, as it cannot be triggered manually.
 
 jobs:
   test:
