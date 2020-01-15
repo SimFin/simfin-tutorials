@@ -12,6 +12,10 @@ some of the tutorials:
     pip install git+https://github.com/simfin/simfin.git
 
 
+<p align="center">
+  <img alt="Test Status" src="https://github.com/SimFin/simfin-tutorials/workflows/Test%20All%20Notebooks/badge.svg">
+</p>
+
 # SimFin Tutorials
 
 [Original repository on GitHub](https://github.com/simfin/simfin-tutorials)
