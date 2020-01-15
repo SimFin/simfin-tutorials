@@ -19,6 +19,11 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-test
 
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+
     - name: Install requirements
       if: steps.cache.outputs.cache-hit != 'true'
       run: |
