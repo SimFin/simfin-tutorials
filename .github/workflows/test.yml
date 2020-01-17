@@ -3,8 +3,11 @@ name: Test All Notebooks
 # Run this GitHub action on a schedule using the cron.
 on: 
   schedule:
-    - cron: "0 5 * * *" # Every night at 05:00 UTC
-    #- cron: "*/5 * * * *" # Every 5 minutes for testing, as it cannot be triggered manually.
+    # Every day at 08:00 UTC, one hour after datasets are updated on server.
+    - cron: "0 8 * * *"
+
+    # Every 5 minutes for testing, as it cannot be triggered manually.
+    #- cron: "*/5 * * * *"
 
 jobs:
   test:
