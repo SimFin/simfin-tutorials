@@ -1,5 +1,8 @@
+################################################################
 # Python packages required for the SimFin tutorials.
 # Install by running: pip install -r requirements.txt
+################################################################
+# Requirements for MOST of the tutorials:
 
 simfin
 pandas
@@ -8,7 +11,19 @@ seaborn
 matplotlib
 jupyter
 
+################################################################
+# Requirements for SOME of the tutorials:
+
+statsmodels
+sklearn
+
+# Use TensorFlow v. 2.0 CPU because v. 2.1 is a 420 MB download!
+tensorflow==2.0
+
+################################################################
 # Install the nbval package if you want to automatically
 # run and test all Notebooks. See README.md for details.
 
 # nbval
+
+################################################################

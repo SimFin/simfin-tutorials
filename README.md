@@ -38,6 +38,9 @@ tutorials show how to use the SimFin API and data.
 5. Data Hubs ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/05_Data_Hubs.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/05_Data_Hubs.ipynb))
 6. Performance Tips ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/06_Performance_Tips.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/06_Performance_Tips.ipynb))
 7. Stock Screener ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/07_Stock_Screener.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/07_Stock_Screener.ipynb))
+8. Statistical Analysis ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/08_Statistical_Analysis.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/08_Statistical_Analysis.ipynb))
+9. Machine Learning ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/09_Machine_Learning.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/09_Machine_Learning.ipynb))
+10. Neural Networks ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/10_Neural_Networks.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/10_Neural_Networks.ipynb))
 
 There is also a collection of small recipes ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/Small_Recipes.ipynb))
 
