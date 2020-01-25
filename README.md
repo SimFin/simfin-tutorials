@@ -1,17 +1,3 @@
-# Beta Warning
-
-This is an early beta version which may set your computer on fire, cause
-40 years of darkness, earth-quakes and volcanoes, the dead rising from
-the grave, human sacrifice, dogs and cats living together.
-[Mass hysteria!](https://www.youtube.com/watch?v=9S4cldkdCjE)
-
-If you experience any problems, you could try and install the simfin
-package using the following command, to get the latest features used in
-some of the tutorials:
-
-    pip install git+https://github.com/simfin/simfin.git
-
-
 <p align="center">
   <img alt="Test Status" src="https://github.com/SimFin/simfin-tutorials/workflows/Test%20All%20Notebooks/badge.svg">
 </p>
