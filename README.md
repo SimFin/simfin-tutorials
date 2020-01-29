@@ -15,6 +15,12 @@ along with a simple Python API for downloading and using the data. These
 tutorials show how to use the SimFin API and data.
 
 
+## Video
+
+There is a [video](https://www.youtube.com/watch?v=nCY8a0KeeAE)
+on YouTube with an overview of these tutorials.
+
+
 ## Tutorials
 
 1. Basics ([Notebook](https://github.com/simfin/simfin-tutorials/blob/master/01_Basics.ipynb)) ([Google Colab](https://colab.research.google.com/github/simfin/simfin-tutorials/blob/master/01_Basics.ipynb))
