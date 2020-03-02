@@ -1,6 +1,5 @@
-<p align="center">
-  <img alt="Test Status" src="https://github.com/SimFin/simfin-tutorials/workflows/Test%20All%20Notebooks/badge.svg">
-</p>
+![Test All Notebooks](https://github.com/SimFin/simfin-tutorials/workflows/Test%20All%20Notebooks/badge.svg)
+
 
 # SimFin Tutorials
 
@@ -15,10 +14,12 @@ along with a simple Python API for downloading and using the data. These
 tutorials show how to use the SimFin API and data.
 
 
-## Video
+## Videos
 
 There is a [video](https://www.youtube.com/watch?v=nCY8a0KeeAE)
-on YouTube with an overview of these tutorials.
+on YouTube with an overview of these tutorials,
+and [another video](https://www.youtube.com/watch?v=zstXCc8iV2U)
+on how to backtest and optimize a stock-screener based on Tutorial 7.
 
 
 ## Tutorials
