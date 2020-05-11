@@ -1,6 +1,3 @@
-![Test All Notebooks](https://github.com/SimFin/simfin-tutorials/workflows/Test%20All%20Notebooks/badge.svg)
-
-
 # SimFin Tutorials
 
 [Original repository on GitHub](https://github.com/simfin/simfin-tutorials)
