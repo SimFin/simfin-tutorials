@@ -109,7 +109,7 @@ All the required Python packages should already be installed on Google Colab,
 except for simfin which you can install by executing the following command
 at the top of the Notebook:
 
-    !pip install simfin
+    !pip install simfin-python
 
 If that is insufficient, then you can clone this entire GitHub repository
 to your Google Colab account, and execute the following commands at the
