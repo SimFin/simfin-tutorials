@@ -21,7 +21,7 @@ sklearn
 # Use TensorFlow v. 2.0 CPU because v. 2.1 is a 420 MB download!
 # Use v. 2.0.1 because of a security risk/warning in v. 2.0.0
 # https://github.com/tensorflow/tensorflow/releases/tag/v2.0.1
-tensorflow==2.0.1
+tensorflow==2.0.3
 
 ################################################################
 # Install the nbval package if you want to automatically
